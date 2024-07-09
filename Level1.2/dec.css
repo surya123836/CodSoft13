@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin:10px;
+    box-sizing: border-box;
+}
+.top p{
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 50px;
+    margin-right: 100px;
+    
+}
+ul,p{
+    display: inline;
+}
+ul{
+    margin-left: 10%;
+    
+}
+ul li{
+    display:inline;
+    margin-right: 50px;
+    
+    
+}
+li:hover{
+    color: rgba(185, 230, 50, 0.555);
+}
+li{
+    cursor: pointer;
+}
+.top h3{
+    margin-top: 50px;
+    font-size: 30px;
+
+}
+.top h4{
+    font-size: medium;
+    height: 300px;
+    width: 500px;
+}
+.top h3,h4{
+    margin-left: 200px;
+    
+}
+
+.intro {
+    float: right;
+    margin-right: 20%;
+    
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+}
+.soc:hover{
+    cursor: pointer;
+    
+}
+.soc{
+    color: black;
+}
+.think{
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+.dis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;   
+}
+
+.mini{
+    font-size:30px;
+    display: inline;
+    text-align: center;
+}
+.skill p{
+    font-size:30px;
+    margin-left: 80px;
+    text-align: center;
+    
+    
+}
+.shadow{
+    background-color: rgb(116, 116, 240);
+    height:300px;
+    width: 500px;
+    -webkit-box-shadow:30px 30px 10px 10px rgba(12, 7, 7, 0.30);
+    
+}
+.skills{
+    display: inline;
+    padding: 30px;
+    color: white;
+}
+.skill{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    font-family: "Bodoni Moda SC", serif;
+    
+    
+}
+.skill-bar{
+    height: 14px;
+    background: rgb(84, 84, 232);
+    border-radius: 3px;
+}
+.skill-per{
+    height: 14px;
+    background: rgb(68, 68, 63);
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 4s 2;
+}
+.skill-per::before{
+    content:attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: black;
+    font-size: 15px;
+    top: -35px;
+    right: 0px;
+    transform: translateX(50%);
+}
+.skill-per::after{
+    content:"";
+    position: absolute;
+    border-radius: 2px;
+    color: black;
+    top: -20px;
+    right: 0px;
+    transform: translateX(50%) rotate(90deg);
+    width: 10px;
+    height: 10px;
+    background: white;
+}
+@keyframes fillBars {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
