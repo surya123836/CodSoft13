@@ -152,4 +152,39 @@ li{
         width: 100%;
     }
 }
+.pro h3{
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: "Bona Nova SC", serif;
+}
+.soc{
+   
+    font-size: 17px;
+    column-gap: 10px;
+    display: inline-flex;
+    padding-left: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.soc p{
+    padding-left: 50px;
+    text-align:initial;
+    height: 220px;
+    width: 300px;
+    padding-top: 10px;
+    font-family: "Kanit", sans-serif;
+}
+.s1,.s2,.s3,.s4,.s5,.s6{
+    background-color:gray ;
+    -webkit-box-shadow:10px 10px 10px 10px rgba(44, 21, 21, 1) ;
+    cursor:pointer;
+}
+.soc p:hover{
+    transition: 0.15ms;
+    opacity: 3;
+    color: blanchedalmond;
+    
+}
+
 
