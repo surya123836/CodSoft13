@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin:10px;
     box-sizing: border-box;
@@ -185,6 +189,96 @@ li{
     opacity: 3;
     color: blanchedalmond;
     
+}
+.resume h3{
+    font-size: 40px;
+    margin-left: 50px;
+    font-family: "Bona Nova SC", serif;
+
+}
+.cer{
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Playwrite BE VLG", cursive;
+    font-size: 10px;
+    column-gap: 30px;
+    margin-left: 350px;
+   
+}
+.cer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.cer1{
+    
+    height: 380px;
+    width: 250px;
+    background: url(certificate.jpg);
+    
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+.cer2{
+    
+    height: 380px;
+    width: 250px;
+    background: url(certificate.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+}
+.cer3{
+    height: 380px;
+    width: 250px;
+    background-image: url(certificate.jpg) ;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    
+}
+.contact{
+    height: 250px;
+    width: 600px;
+    background-color:antiquewhite;
+    -webkit-box-shadow:10px 10px 10px 10px rgb(11, 8, 8, 0.7);
+    margin-left: 0px;
+    text-align: center;
+    margin-left: 440px;
+
+}
+.contact h4{
+    margin-left: 0px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.contact h2{
+    margin-left: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.contact h3{
+    margin-left: 0px;
+    font-family: "Bodoni Moda SC", serif;
+    
+}
+.contact h5{
+    margin-left: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.loc{
+    font-family: "Montserrat", sans-serif;
+    
+}
+h2 p{
+    cursor: pointer;
+
+}
+h2 p:hover{
+    color: aqua;
 }
 
 
